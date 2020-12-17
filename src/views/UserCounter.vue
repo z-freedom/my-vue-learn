@@ -1,10 +1,12 @@
 <template>
-$END$
+  <div>
+    <h1>子组件counter: {{ $store.state.counter }}</h1>
+  </div>
 </template>
 
 <script>
 export default {
-name: "UserCounter"
+  name: "UserCounter",
 }
 </script>
 
