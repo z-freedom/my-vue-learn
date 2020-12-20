@@ -1,11 +1,15 @@
 <template>
   <div>
     <div id="nav">
-      <router-link to="/home" tag="button" replace>Home</router-link>
+      <router-link to="/home" tag="button"ii>Home</router-link>
       |
-      <router-link to="/about" tag="button" replace>About</router-link>
+      <router-link to="/about" tag="button">About</router-link>
       |
-      <router-link :to="/user/+id" tag="button" replace>User</router-link>
+      <router-link :to="/user/+id" tag="button">User</router-link>
+      |
+      <router-link to="/axios/test" tag="button">Axios</router-link>
+      |
+      <router-link to="/axios/create" tag="button">AxiosCreate</router-link>
     </div>
     <router-view/>
   </div>
@@ -28,6 +32,6 @@ export default {
   color: red;
   background-color: green;
   height: 40px;
-  width: 60px;
+  width: 100px;
 }
 </style>

@@ -1,8 +1,7 @@
-
 module.exports = {
 
     publicPath: '/',
-    configureWebpack:{
+    configureWebpack: {
         resolve: {
             extensions: ['.js', '.vue', '.json'],
             alias: {
@@ -11,7 +10,8 @@ module.exports = {
                 'components': '@/components',
                 'network': '@/network',
                 'views': '@/views',
+                'store': '@/store',
             }
         }
-    }
+    },
 }

@@ -43,6 +43,20 @@ const routes = [
             title: '用户'
         },
         component: () => import('../views/User')
+    },
+    {
+        path: '/axios/test',
+        meta: {
+            title: 'axios测试'
+        },
+        component: () => import('../views/AxiosTest')
+    },
+    {
+        path: '/axios/create',
+        meta: {
+            title: 'axios测试'
+        },
+        component: () => import('../views/AxiosCreate')
     }
 ]
 
